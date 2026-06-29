@@ -1,0 +1,16 @@
+{
+  "your-product": {
+    "entry": "https://example.com/app/home",
+    "pages": {
+      "list-page": {
+        "nav": []
+      },
+      "detail-page": {
+        "nav": [
+          { "action": "click", "selector": ".menu-item:has-text('示例入口')", "nth": 0 },
+          { "action": "click", "selector": "button:has-text('查看详情')", "nth": 0 }
+        ]
+      }
+    }
+  }
+}
